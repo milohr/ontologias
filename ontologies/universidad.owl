@@ -5,6 +5,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-15="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15"/>
     
@@ -181,7 +182,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101"/>
         <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
         <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palacio</apellido>
         <codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66666666</codigoEstudiante>
@@ -194,8 +194,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666"/>
         <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mufassa</apellido>
         <codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23344455</codigoEstudiante>
         <nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abeni</nombre>
@@ -232,7 +230,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor"/>
-        <dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
         <dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666"/>
         <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palacio</apellido>
         <codigoProfesor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85642522</codigoProfesor>

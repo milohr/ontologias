@@ -1,12 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#"
-     xml:base="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/milohr/ontologias/master/universidad.owl#"
+     xml:base="https://raw.githubusercontent.com/milohr/ontologias/master/universidad.owl"
+     xmlns:uni="https://raw.githubusercontent.com/milohr/ontologias/master/universidad.owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-15="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15"/>
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/milohr/ontologias/master/universidad.owl"/>
     
 
 
@@ -168,11 +170,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est1">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301"/>
-        <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramirez</apellido>
-        <codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1124522</codigoEstudiante>
-        <nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel</nombre>
+        <untitled-ontology-15:estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101"/>
+        <untitled-ontology-15:estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301"/>
+        <untitled-ontology-15:apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ramirez</untitled-ontology-15:apellido>
+        <untitled-ontology-15:codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1124522</untitled-ontology-15:codigoEstudiante>
+        <untitled-ontology-15:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daniel</untitled-ontology-15:nombre>
     </owl:NamedIndividual>
     
 
@@ -181,11 +183,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est2">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
-        <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palacio</apellido>
-        <codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66666666</codigoEstudiante>
-        <nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sara</nombre>
+        <untitled-ontology-15:estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
+        <untitled-ontology-15:estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666"/>
+        <untitled-ontology-15:apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palacio</untitled-ontology-15:apellido>
+        <untitled-ontology-15:codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66666666</untitled-ontology-15:codigoEstudiante>
+        <untitled-ontology-15:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sara</untitled-ontology-15:nombre>
     </owl:NamedIndividual>
     
 
@@ -194,11 +196,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#est3">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Estudiante"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
-        <estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666"/>
-        <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mufassa</apellido>
-        <codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23344455</codigoEstudiante>
-        <nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abeni</nombre>
+        <untitled-ontology-15:estudia rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666"/>
+        <untitled-ontology-15:apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mufassa</untitled-ontology-15:apellido>
+        <untitled-ontology-15:codigoEstudiante rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23344455</untitled-ontology-15:codigoEstudiante>
+        <untitled-ontology-15:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abeni</untitled-ontology-15:nombre>
     </owl:NamedIndividual>
     
 
@@ -219,11 +220,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof1">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor"/>
-        <dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101"/>
-        <dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301"/>
-        <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herrera</apellido>
-        <codigoProfesor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123222</codigoProfesor>
-        <nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esteban</nombre>
+        <untitled-ontology-15:dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs101"/>
+        <untitled-ontology-15:dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph301"/>
+        <untitled-ontology-15:apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Herrera</untitled-ontology-15:apellido>
+        <untitled-ontology-15:codigoProfesor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123222</untitled-ontology-15:codigoProfesor>
+        <untitled-ontology-15:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esteban</untitled-ontology-15:nombre>
     </owl:NamedIndividual>
     
 
@@ -232,11 +233,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#prof2">
         <rdf:type rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#Profesor"/>
-        <dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
-        <dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666"/>
-        <apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palacio</apellido>
-        <codigoProfesor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85642522</codigoProfesor>
-        <nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carlos</nombre>
+        <untitled-ontology-15:dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#cs111"/>
+        <untitled-ontology-15:dicta rdf:resource="http://www.semanticweb.org/camilo/ontologies/2017/4/untitled-ontology-15#ph666"/>
+        <untitled-ontology-15:apellido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palacio</untitled-ontology-15:apellido>
+        <untitled-ontology-15:codigoProfesor rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85642522</untitled-ontology-15:codigoProfesor>
+        <untitled-ontology-15:nombre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carlos</untitled-ontology-15:nombre>
     </owl:NamedIndividual>
 </rdf:RDF>
 
